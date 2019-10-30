@@ -16,7 +16,7 @@ class Complex(complex):
         return Complex(complex.__abs__(self))
 
     def __str__(self):
-        return '{0.real:.2f}{0.imag:+.2f}i'.format(self)
+        return '{0:04.2f}{1:+04.2f}i'.format(self.real, self.imag + 0)
 
 
 if __name__ == '__main__':

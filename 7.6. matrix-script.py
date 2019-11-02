@@ -1,5 +1,7 @@
 import re
 
+# Just copy and paste -> I do not think regex really matters
+
 n, m = map(int, input().split())
 a, b = [], ""
 for _ in range(n):
